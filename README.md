@@ -2,8 +2,7 @@
 Bu Python betiği, Nadir Kitap web sitesinden belirli kitapların fiyatlarını, satıcı bilgilerini toplar ve kargo ücretinden tasarruf etmek amacıyla aynı satıcıdan birden fazla kitap almayı kolaylaştırır.
 
 ### **Özellikler:**  
-- Kullanıcı tarafından sağlanan **kitap isimleri listesi** için web kazıma işlemi yapar.  
-- **Fiyatları düşükten yükseğe sıralayarak** en ucuz seçenekleri listeler.  
+- Kullanıcı tarafından sağlanan **kitap isimleri listesi** için web kazıma işlemi yapar.   
 - **İlk iki sayfadaki (toplam 50 kitap) verileri** toplar.  
 - **Selenium WebDriver** kullanarak web sayfalarına erişir ve **XPATH ile verileri çeker**.  
 - Her kitap için bulunan **satıcı ve fiyat bilgilerini bir DataFrame’e** kaydeder.  
